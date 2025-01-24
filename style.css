@@ -1,0 +1,140 @@
+/* Genel Ayarlar */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #000000; /* Arka plan siyah */
+    color: #FFFFFF; /* Genel metin rengi beyaz */
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+a {
+    text-decoration: none;
+    color: #00A1FF; /* Açık mavi bağlantı rengi */
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #007ACC; /* Koyu mavi hover rengi */
+}
+
+/* Header */
+.header {
+    background: #1B1B1B; /* Siyahın bir tonu */
+    color: #FFFFFF; /* Beyaz metin */
+    position: fixed;
+    width: 100%;
+    padding: 1rem 0;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Hafif gölge efekti */
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header .nav-links li {
+    margin-left: 1.5rem;
+}
+
+.header .nav-links a {
+    color: #FFFFFF; /* Beyaz bağlantı rengi */
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.header .nav-links a:hover {
+    background: #00A1FF; /* Açık mavi hover arka plan */
+    color: #000000; /* Siyah yazı */
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to bottom, #0A0A23, #000000); /* Koyu mavi ve siyah geçiş */
+    color: #FFFFFF;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin: 0;
+    color: #00A1FF; /* Açık mavi başlık */
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #FFFFFF; /* Beyaz metin */
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.8rem 2rem;
+    background: #007ACC; /* Koyu mavi düğme */
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+    background: #00A1FF; /* Açık mavi hover efekti */
+}
+
+/* Sections */
+.section {
+    padding: 5rem 0;
+    text-align: center;
+    background: #000000; /* Siyah arka plan */
+}
+
+.features {
+    background: #1B1B1B; /* Siyahın bir tonu */
+}
+
+.feature-item {
+    margin: 2rem 0;
+    background: #0A0A23; /* Koyu mavi arka plan */
+    padding: 2rem;
+    border-radius: 10px;
+    color: #FFFFFF;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Hafif gölge efekti */
+}
+
+/* Footer */
+.footer {
+    background: #1B1B1B; /* Siyahın bir tonu */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer a {
+    color: #00A1FF; /* Açık mavi bağlantılar */
+}
+
+.footer a:hover {
+    color: #007ACC; /* Koyu mavi hover rengi */
+}
